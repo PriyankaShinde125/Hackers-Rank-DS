@@ -15,7 +15,7 @@ public class DsArray {
                 break;
             }
         }
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = firstMinIndex + 1; i < arr.length; i++) {
             if (arr[i] == arr[i - 1]) {
                 continue;
             }
@@ -24,6 +24,7 @@ public class DsArray {
                 break;
             }
         }
+        System.out.println(firstMinIndex + " " + nextMinIndex);
         for (int i = nextMinIndex + 1; i < arr.length; i++) {
             if (firstMinIndex != nextMinIndex) {
                 if (arr[i] < arr[i - 1] || arr[i] > arr[firstMinIndex]) {
