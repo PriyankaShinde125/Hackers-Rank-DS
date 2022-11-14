@@ -3,7 +3,8 @@ import java.util.Arrays;
 public class DsArray_Consecutive {
 
     public static void main(String[] args) {
-        int[] arr = {1, 3, 2, 3, 10, 11, 12, 1, 1, 1, 14, 15, 16, 17};
+        //int[] arr = {1, 3, 2, 3, 10, 11, 12, 1, 1, 1, 14, 15, 16, 17};
+        int[] arr = {1, 3, 2, 3, 10, 11, 12, 1, 1, 1};
         DsArray_Consecutive dsArray_consecutiveObj = new DsArray_Consecutive();
         dsArray_consecutiveObj.checkConsecutives(arr);
     }
